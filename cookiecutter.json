@@ -1,0 +1,7 @@
+{
+    "presentation_title": "",
+    "title_slug": "{{ cookiecutter.presentation_title.lower().replace(' ',  '_').replace('-', '_') }}",
+    "author": "Andy Pahne",
+    "input_file": "presentation.md",
+    "output_file": "presentation.html"
+}

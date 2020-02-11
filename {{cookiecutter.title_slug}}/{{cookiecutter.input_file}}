@@ -1,0 +1,17 @@
+---
+author: {{cookiecutter.author}}
+title: {{cookiecutter.presentation_title}}
+#date: 2020-02-11
+---
+
+# Slide 1
+
+```python
+print("hello world")
+```
+
+
+# Slide 2
+
+* test
+* test
