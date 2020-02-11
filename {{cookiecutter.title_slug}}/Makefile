@@ -6,7 +6,7 @@ download-reveal-js:
 	rm master.tar.gz
 
 clean:
-	rm {{cookiecutter.output_file}}
+	rm -f {{cookiecutter.output_file}}
 
 clean-reveal-js:
 	rm -rf reveal.js
@@ -14,5 +14,4 @@ clean-reveal-js:
 build:
 	pandoc -t revealjs -s -o {{cookiecutter.output_file}} {{cookiecutter.input_file}} -V revealjs-url=./reveal.js --slide-level 2
 
-
-.PHONY: download-reveal-js clean build
+.PHONY: download clean build
