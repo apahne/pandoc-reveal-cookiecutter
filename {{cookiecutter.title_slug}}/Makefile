@@ -1,4 +1,6 @@
 
+.DEFAULT_GOAL := build
+
 download-reveal-js:
 	wget https://github.com/hakimel/reveal.js/archive/master.tar.gz
 	tar -xzvf master.tar.gz
@@ -14,4 +16,3 @@ clean-reveal-js:
 build:
 	pandoc -t revealjs -s -o {{cookiecutter.output_file}} {{cookiecutter.input_file}} -V revealjs-url=./reveal.js --slide-level 2
 
-.PHONY: download clean build
