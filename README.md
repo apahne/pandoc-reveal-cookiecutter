@@ -24,7 +24,7 @@ $ make download-reveal-js
 * optional: [GNU Make](https://www.gnu.org/software/make/)
 
 
-# Acknowledgment
+# Acknowledgement 
 
 This uses [The HTML presentation framework reveal.js](https://revealjs.com). reveal.js will be downloaded when you bootstrap.
 
